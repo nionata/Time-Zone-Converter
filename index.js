@@ -13,6 +13,7 @@ function myTime(array) {
         convertedTimes.push(parseInt(element["availTime"]) + conversionFactor);
     });
 
+    console.log(currentZone);
     console.log(convertedTimes);
 }
 
